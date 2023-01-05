@@ -9,7 +9,7 @@ const middlewares = jsonServer.defaults();
 server.use(cors());
 server.use(jsonServer.bodyParser);
 server.use(middlewares);
-server.use("/cars", router);
+// server.use("/cars", router);
 server.use(router);
 
 // server.post("/cars",)
